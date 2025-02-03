@@ -14,7 +14,7 @@ const AllTodos = () => {
        <>
             {
                 todoListLength > 0  ? 
-                todoList.map((todo: Todo) => <ToDoItem key={todo.id} todo={todo}/>)
+                todoList.map((todo) => <ToDoItem key={todo.id} todo={todo}/>)
                 : <h1 className='text-center capitalize text-2xl font-semibold text-gray-400'>Start adding tasks</h1>
             }
        </>
