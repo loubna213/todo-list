@@ -1,10 +1,10 @@
 import ToDoItem from "../todo-components/ToDoItem"
 import { useTodo } from "../contexts/TodoContext";
 
-interface Todo {
-    id: number;
-    todo: string;
-}
+// interface Todo {
+//     id: number;
+//     todo: string;
+// }
 
 const AllTodos = () => {
     const { todoList } = useTodo()
